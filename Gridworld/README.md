@@ -6,12 +6,18 @@ This project involves the implementation and analysis of various reinforcement l
 
 ## Structure
 
-- **Gridworld/**: Contains `.py` files for the algorithms.
-- **Gridworld/Data/**: Data required for running the `.py` files.
-- **Results_10K_Iterations/**: Results after 10,000 iterations.
-- **Results_50K_Iterations/**: Results after 50,000 iterations.
-- **Hyper_Parameters/**: CSV files with different hyperparameters.
-- **Final_Animation_Images/**: Final animations and plots.
+- **Gridworld/**: 
+  -Contains `.py` files for the algorithms.
+- **Gridworld/Data/**: 
+  -Data required for running the `.py` files.
+- **Results_10K_Iterations/**: 
+  -Results after 10,000 iterations.
+- **Results_50K_Iterations/**: 
+  -Results after 50,000 iterations.
+- **Hyper_Parameters/**: 
+  -CSV files with different hyperparameters.
+- **Final_Animation_Images/**:
+  - Final animations and plots.
 
 ## Instructions
 
@@ -21,22 +27,54 @@ This project involves the implementation and analysis of various reinforcement l
 
 ## Python File Descriptions
 
-- **GridWorld.py**: Defines the `GridWorld` class for simulating grid-world environments.
-- **GridWorldVisualizer.py**: For creating animated visualizations of algorithm training.
-- **PolicyIteration.py**: Implements Policy Iteration algorithm.
-- **Test-PolicyIteration.py**: Applies Policy Iteration and saves performance metrics.
-- **ValueIteration.py**: Implements Value Iteration algorithm.
-- **Test-ValueIteration.py**: Applies Value Iteration and saves performance metrics.
-- **MCLearningES.py**: Implements Monte Carlo Learning with Exploring Starts.
-- **Test-MCLearningES.py**: Applies Monte Carlo Learning and evaluates performance.
-- **QLearning.py**: Implements Q-Learning algorithm.
-- **Test-QLearning.py**: Applies Q-Learning and saves performance metrics.
-- **DoubleQLearning.py**: Implements Double Q-Learning algorithm.
-- **Test-DoubleQLearning.py**: Applies Double Q-Learning and evaluates performance.
-- **TripleQLearning.py**: Implements Triple Q-Learning algorithm.
-- **Test-TripleQLearning.py**: Applies Triple Q-Learning and saves performance metrics.
-- **HyperParameters.py**: Explores hyperparameters for different algorithms.
-- **HyperParametersCompare.py**: Compares and summarizes optimal hyperparameters.
+This section provides an overview of each Python script in the project and their respective functionalities.
+
+### Core Algorithms
+
+- **GridWorld.py**
+  - *Description*: Defines the `GridWorld` class to simulate grid-world environments.
+- **PolicyIteration.py**
+  - *Description*: Implements the Policy Iteration algorithm for Markov Decision Processes.
+- **ValueIteration.py**
+  - *Description*: Implements the Value Iteration algorithm for Markov Decision Processes.
+- **MCLearningES.py**
+  - *Description*: Implements Monte Carlo Learning with Exploring Starts, a reinforcement learning technique.
+- **QLearning.py**
+  - *Description*: Contains the implementation of Q-Learning, a model-free reinforcement learning algorithm.
+- **DoubleQLearning.py**
+  - *Description*: Implements Double Q-Learning for more stable and accurate reinforcement learning.
+- **TripleQLearning.py**
+  - *Description*: Implements Triple Q-Learning, enhancing reinforcement learning performance.
+
+### Test Scripts
+
+- **Test-PolicyIteration.py**
+  - *Description*: Applies Policy Iteration on a grid-world problem, visualizing results and saving metrics.
+- **Test-ValueIteration.py**
+  - *Description*: Applies Value Iteration on a grid-world problem, visualizing results and saving metrics.
+- **Test-MCLearningES.py**
+  - *Description*: Applies Monte Carlo Learning with Exploring Starts, evaluating performance.
+- **Test-QLearning.py**
+  - *Description*: Applies Q-Learning on a grid-world problem, visualizing results and saving metrics.
+- **Test-DoubleQLearning.py**
+  - *Description*: Applies Double Q-Learning, evaluating performance.
+- **Test-TripleQLearning.py**
+  - *Description*: Applies Triple Q-Learning on a grid-world problem, visualizing results.
+
+### Visualization and Analysis
+
+- **GridWorldVisualizer.py**
+  - *Description*: For creating animated visualizations of algorithm training on a grid-world.
+- **HyperParameters.py**
+  - *Description*: Explores hyperparameters for different reinforcement learning algorithms.
+- **HyperParametersCompare.py**
+  - *Description*: Compares and summarizes optimal hyperparameters.
+
+### Utility Scripts
+
+- **GenerateFinalPlots.py**
+  - *Description*: Generates bar and convergence plots to compare the algorithms.
+
 
 ## Hyperparameter Tuning
 
