@@ -7,15 +7,15 @@ This project involves the implementation and analysis of various reinforcement l
 ## Structure
 
 - **Gridworld/**: 
-  -Contains `.py` files for the algorithms.
+  - Contains `.py` files for the algorithms.
 - **Gridworld/Data/**: 
-  -Data required for running the `.py` files.
+  - Data required for running the `.py` files.
 - **Results_10K_Iterations/**: 
-  -Results after 10,000 iterations.
+  - Results after 10,000 iterations.
 - **Results_50K_Iterations/**: 
-  -Results after 50,000 iterations.
+  - esults after 50,000 iterations.
 - **Hyper_Parameters/**: 
-  -CSV files with different hyperparameters.
+  - CSV files with different hyperparameters.
 - **Final_Animation_Images/**:
   - Final animations and plots.
 
