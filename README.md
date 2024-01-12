@@ -100,10 +100,15 @@ the parameters involved were gamma, alpha, epsilon, and the total count of episo
 #### 5.3 Average Reward
 We applied different reinforcement learning algorithms (Policy Iteration, Value Iteration, Monte Carlo, QLearning, Double Q-Learning, and Triple Q-Learning) to a Grid World scenario. For each algorithm, we:
 ✔ Trained the model to develop a policy.
+
 ✔ Assessed this policy over multiple episodes.
+
 ✔ Determine the average reward by averaging the rewards from multiple evaluation episodes.
+
 ✔ Repeated training and evaluation multiple times per algorithm, using different seeds or initial conditions, 
+
 to ensure robustness in the calculated average rewards.
+
 ✔ Compared the performance of each algorithm based on these average reward metrics
 
 ### 6. Evaluation Results and Comparative Analysis 
@@ -152,8 +157,11 @@ achieving superior results within this context. In comparison to Q learning, Dou
 Some Insights:
 
 ✔ Value and Policy Iteration: Excel in well-known environment dynamics.
+
 ✔ Q-Learning Variants: Adapt well to complex or unknown dynamics.
+
 ✔ Hyperparameter Tuning: Critical for RL algorithm success.
+
 ✔ Exploration Strategies: Essential for effective learning.
 
 
